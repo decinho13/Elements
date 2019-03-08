@@ -1,0 +1,117 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title> </title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+
+			body {
+				font-family: Arial;
+				color: white;
+			}
+
+			.split {
+				height: 100%;
+				width: 50%;
+				position: fixed;
+				z-index: 1;
+				top: 0;
+				overflow-x: hidden;
+				padding-top: 20px;
+			}
+
+			.left {
+				left: 0;
+				background-color: #111;
+			}
+
+			.right {
+				right: 0;
+				background-color: #111;
+			}
+
+			.centered {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				text-align: center;
+			}
+
+			.centered iframe {
+				width: 960px;
+				height: 900px;
+				border-radius: 1%;
+			}
+		</style>
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.dropotron.min.js"></script>
+		<script src="js/jquery.scrollgress.min.js"></script>
+		<script src="js/jquery.scrolly.min.js"></script>
+		<script src="js/jquery.slidertron.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<script type="text/javascript" language="javascript">
+			$('.myIframe').css('height', $(window).height()+'px');
+		</script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-xlarge.css" />
+		</noscript>
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header" class="alt skel-layers-fixed">
+				<h1><a href="index.html">ML & Robotics <span>by Airbus Defense & Space</span></a></h1>
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li>
+							<a href="" class="icon fa-angle-down">Tools</a>
+							<ul>
+								<li><a href="left-sidebar.html">ROS-Terminal</a></li>
+								<li><a href="gazebo.html">Gazebo</a></li>
+								<li><a href="right-sidebar.html">Jupyter-Notebook</a>
+									<ul>
+										<li><a href="#">CPU-backend</a></li>
+										<li><a href="#">GPU-backend</a></li>
+									</ul>
+								</li>
+								<li><a href="no-sidebar.html">Eclipse-Che</a></li>
+								<li><a href="no-sidebar.html">Spark</a></li>
+								<li><a href="no-sidebar.html">Hortonworks</a></li>
+							</ul>
+						</li>
+						<li><a href="elements.html">Elements</a></li>
+					</ul>
+				</nav>
+			</header>
+
+
+
+	<div class="split left">
+	  <div class="centered">
+	    <iframe src="http://192.168.99.100:8080"></iframe>
+			<p><a href="http://192.168.99.100:8080" target="_blank"> Expand</a></p>
+	  </div>
+	</div>
+
+	<div class="split right">
+	  <div class="centered">
+	    <iframe src="http://192.168.99.100:8181/ide.html" csp="object-src 'none'"></iframe>
+			<p><a href="http://192.168.99.100:8181/ide.html" target="_blank"> Expand</a></p>
+	  </div>
+	</div>
+
+	</body>
+	</html>
