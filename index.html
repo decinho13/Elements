@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 
 <html>
+
 	<head>
 		<title> </title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
@@ -22,9 +23,13 @@
 		</noscript>
 		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		<link href="fontawesome-free-5.8.1-web/css/all.css" rel="stylesheet">
+
+
 	</head>
 	<body class="landing">
-
+	<i class="fab fa-github-square"></i>
+	<i class="fab fa-blender"></i>
 		<!-- Header -->
 			<header id="header" class="alt skel-layers-fixed">
 				<h1><a href="index.html">ML & Robotics <span>by Airbus Defense & Space</span></a></h1>
@@ -64,36 +69,49 @@
 				</div>
 			</section>
 
-
-
 		<!-- Two -->
 			<section id="one" class="wrapper style2">
 				<div class="container">
 					<div class="row uniform">
-						<div class="4u 6u(2) 12u$(3)">
+						<div class="4u 6u(2) 12u(3)">
 							<section class="feature fa-gamepad">
-								<h3><a href="#three" class="scrolly" >Gazebo-Client</a></h3>
-								<p>Opens a client to Gazebo-Server.</br >
-								See the available libraries and getting-started descriptions at the docs page.</br>
+								<h3>ROS GUI-Tools</h3>
+
 							</section>
 						</div>
-						<div class="4u 6u$(2) 12u$(3)">
+						<div class="4u 6u(2) 12u(3)">
 							<section class="feature fa-code">
-								<h3><a href="http://192.168.99.100:8888" target="_blank">Jupyter-Notebook</a></h3>
-								<p>Start a Jupyter-Notebook.</br>
-								Included libraries are e.g. Keras, tensorflow, scipy and more.</br></br>
-								For Login choose:</br>
-								Password: <b>shadow</b>	</p>
+                                <h3>Machine Learning</br> Jupyter-Notebook</h3>
+
 							</section>
 						</div>
-						<div class="4u$ 6u(2) 12u$(3)">
+						<div class="4u 6u(2) 12u(3)">
 							<section class="feature fa-desktop">
-								<h3><a href="http://192.168.99.100:8181" target="_blank">Cloud9-IDE</a></h3>
-								<p>A browser-based IDE for developing new apps. </br>
-								<a href="#" target="_blank">Docs</a> and
-								<a href="#" target="_blank">tutorials</a> are available.</p>
+								<h3>Cloud9-IDE</h3>
 							</section>
 						</div>
+                    </div>
+                    <div class="row uniform">
+                        <div class="4u 6u(2) 12u$(3)">
+                            <section class="feature fa-video">
+                                <h3>Blender</h3>
+                            </section>
+                        </div>
+                        <div class="4u 6u(2) 12u(3)">
+                            <section class="feature fa-github">
+                                <h3>Gitlab</h3>
+
+                            </section>
+                        </div>
+                        <div class="4u 6u(2) 12u(3)">
+                            <section class="feature fa-university">
+                                <h3>V-REP</h3>
+								<p>   </br>
+                                </p>
+                            </section>
+                        </div>
+                    </div>
+
 					</div>
 				</div>
 			</section>
@@ -103,25 +121,25 @@
 			<section id="three" class="wrapper style1">
 				<div class="container">
 					<header class="major">
-						<h2>Get your tools to develop new robotic applications </br>with Machine Learning</h2>
+						<h2>Get your tools to develop new robotic applications </br>with use of Machine Learning</h2>
 						<p></p>
 					</header>
 					<div class="row">
 						<div class="4u 6u(2) 12u$(3)">
 							<article class="box post">
-								<a href="#three" class="image fit"><img src="images/Gazebo.jpg"/></a>
-								<h3>Gazebo Simulator</h3>
-								<p>Discover the possibilities of simulating robots.</p>
+								<a class="image fit"><img src="images/Gazebo.jpg"/></a>
+								<h3>Robotic Simulators</h3>
+								<p>Discover the possibilities of simulating robots in Gazebo or V-REP.</br></p>
 								<ul class="actions">
-									<li><a href="http://192.168.99.100:8080" target="_blank" class="button">See More</a></li>
+									<li><a href="http://localhost:8080" target="_blank" class="button">See More</a></li>
 								</ul>
 							</article>
 						</div>
 						<div class="4u 6u$(2) 12u$(3)">
 							<article class="box post">
-								<a href="#" class="image fit"><img src="images/jupyter.jpg" alt="" /></a>
-								<h3>Jupyter-Notebooks</h3>
-								<p>Choose from different pre-stacks, to deploy machine learning with various frameworks like Tensorflow, Keras, Theano and more.</p>
+								<a  class="image fit"><img src="images/jupyter.jpg" alt="" /></a>
+								<h3>Machine Learning</br>Jupyter-Notebooks</h3>
+								<p>Choose from different pre-stacks, to deploy machine learning with various frameworks like Keras or Spark and more.</p>
 								<ul class="actions">
 									<li><a href="jupyter.html" class="button">See More</a></li>
 								</ul>
@@ -130,8 +148,9 @@
 						<div class="4u$ 6u(2) 12u$(3)">
 							<article class="box post">
 								<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-								<h3>Faucibus portitor</h3>
-								<p>Ipsum dolor tempus et commodo lorem accumsan et adipiscing blandit porttitor feugiat tempus lorem faucibus.</p>
+								<h3>Blender</h3>
+								<p>A Rendering Software to develop high resolution models for simulation. </br>
+									It allows to convert CAD-Files to URDF-Format.</p>
 								<ul class="actions">
 									<li><a href="#" class="button">Learn More</a></li>
 								</ul>
@@ -140,8 +159,9 @@
 						<div class="4u 6u$(2) 12u$(3)">
 							<article class="box post">
 								<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
-								<h3>Non placerat</h3>
-								<p>Ipsum dolor tempus et commodo lorem accumsan et adipiscing blandit porttitor feugiat tempus lorem faucibus.</p>
+								<h3>ROS GUI-Tools</h3>
+								<p>Opens a client to ROS GUI-Tools.</br >
+									Get in charge with tools like Rviz or MoveIt!.</p>
 								<ul class="actions">
 									<li><a href="#" class="button">Learn More</a></li>
 								</ul>
@@ -150,8 +170,8 @@
 						<div class="4u 6u(2) 12u$(3)">
 							<article class="box post">
 								<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
-								<h3>Adipiscing dolor</h3>
-								<p>Ipsum dolor tempus et commodo lorem accumsan et adipiscing blandit porttitor feugiat tempus lorem faucibus.</p>
+								<h3>Cloud9-IDE</h3>
+								<p>A browser-based IDE for developing new apps in ROS-environment. </p>
 								<ul class="actions">
 									<li><a href="#" class="button">Learn More</a></li>
 								</ul>
@@ -160,8 +180,18 @@
 						<div class="4u$ 6u$(2) 12u$(3)">
 							<article class="box post">
 								<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
-								<h3>Feugiat tempus</h3>
-								<p>Ipsum dolor tempus et commodo lorem accumsan et adipiscing blandit porttitor feugiat tempus lorem faucibus.</p>
+								<h3>Gitlab</h3>
+								<p>Open source DevOps Tool to collaborate on code. </p>
+								<ul class="actions">
+									<li><a href="#" class="button">Learn More</a></li>
+								</ul>
+							</article>
+						</div>
+						<div class="4u$ 6u$(2) 12u$(3)">
+							<article class="box post">
+								<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
+								<h3>Azure-CLI</h3>
+								<p>Use the power of ready-to-develop machine learning services of Microsoft Azure. </p>
 								<ul class="actions">
 									<li><a href="#" class="button">Learn More</a></li>
 								</ul>
@@ -173,21 +203,15 @@
 
 		<!-- CTA -->
 			<section id="cta" class="wrapper style3">
-				<h2>Sed faucibus et consequat</h2>
+				<h2>Have a look at a devloped example to</h2>
 				<ul class="actions">
-					<li><a href="#" class="button big">Get Started</a></li>
+					<li><a href="#" class="button big">Get Started!</a></li>
 				</ul>
 			</section>
 
 		<!-- Footer -->
 			<footer id="footer">
-				<ul class="icons">
-					<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-					<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-					<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-					<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-					<li><a href="#" class="icon fa-envelope"><span class="label">Envelope</span></a></li>
-				</ul>
+
 				<ul class="menu">
 					<li><a href="#">FAQ</a></li>
 					<li><a href="#">Terms of Use</a></li>
