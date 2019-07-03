@@ -55,32 +55,26 @@
 		<!-- Main -->
 			<section id="main" class="wrapper style1">
 				<header class="major">
-					<h2>Cloud9 IDE</h2>
-					<p>Framework with multi-language IDE and Terminal</p>
+					<h2>Blender 3D</h2>
+					<p>Render your Models for high quality simulations.</p>
 				</header>
 				<div class="container">
 
 					<!-- Content -->
 						<section id="content">
-							<div style="text-align: center;"><a href="#" class="image"><img src="images/cloud9logo.png" alt="" /></a></div>
-							<p></p>
-							<h3>Description</h3>
-							<p>AWS Cloud9 is a cloud-based integrated development environment (IDE) that lets you write,
-								run, and debug your code with just a browser.
-								It includes a code editor, debugger, and terminal.</br>
-							Since your Cloud9 IDE is cloud-based, you can work on your projects from your office,
-							 home, or anywhere using an internet-connected machine.
-						 With Cloud9, you can quickly share your development environment with your team,
-						 enabling you to pair program and track each other's inputs in real time.</br>(https://aws.amazon.com/cloud9/?nc1=h_ls)</p>
-									<div style="text-align: center;"><ul class="actions">
-								<li><a href="http://localhost:8181" target="_blank" class="button special fit">Start</a></li>
+							<div style="text-align: center;"><a class="image "><img src="images/blender.png" alt=""height="350" width="600" /></a></div>
+							<h2>Beschreibung</h2>
+							<p>Blender is the free and open source 3D creation suite. It supports the entirety of the 3D pipeline—modeling, rigging, animation, simulation, rendering, compositing and motion tracking, even video editing and game creation. </br>(https://www.blender.org/)</p>
+							<div style="text-align: center;"><ul class="actions">
+								<li><a href="http://localhost:7000/vnc_auto.html" target="_blank" class="button special fit">Start</a></li>
 							</ul></div>
-							<h3>Important Notes for working with Cloud9-IDE</h3>
-							<p><ul>
-								<li>With Cloud9 upload of local files is very easy.</br> Click on File->upload from local host and choose your uploaded data.</li>
-								<li>Connect your Terminal to Azure with the Azure-CLI and manage your ressources or use the Azure-Services. </br>Get more Information with this <a href="https://docs.microsoft.com/de-de/cli/azure/get-started-with-azure-cli?view=azure-cli-latest">link</a>.</li>
-								</ul>
-							</p>
+							<h3>Important Notes for working with Blender3D</h3>
+							<p>Blender3D has to be started manually inside the container.</br> To do so, click on the terminal and type one of the following to lines:
+								<blockquote style="border: 0px solid #666; padding: 10px; background-color: #eee;">$ cd bin/blender</br>$ ./blender</blockquote></p>
+
+							<h3>Convert CAD-Data to URDF</h3>
+							<p>With the Blender3D Plugin Phobos the user is graphically supported to describe the robot, having only CAD-Files, in URDF.</br>
+							While following <a href="https://github.com/dfki-ric/phobos/wiki#next-steps">these steps</a>, you will get a ROS robot description in an easy and fast way. </p>
 						</section>
 
 				</div>

@@ -44,8 +44,7 @@
 							<li><a href="jupyter.html">Jupyter-Notebook</a></li>
 							<li><a href="blender.html">Blender 3D</a></li>
 							<li><a href="rosgui.html">ROS GUI-Tools</a></li>
-							<li><a href="gitlab.html">Gitlab</a></li>
-							<li><a href="azure.html">Azure SDK</a></li>
+							<li><a href="http://localhost:10080" target="_blank">Gitlab</a></li>
 						</ul>
 					</li>
 
@@ -57,47 +56,54 @@
 			<section id="main" class="wrapper style1">
 				<header class="major">
 					<h2>Robotic Simulator</h2>
-					<p>Choose from various simulator-software to bring your Robots to life</p>
+					<p>Choose from various Simulator-Software to bring your Robots to Life</p>
 				</header>
 				<div class="container">
 					<div class="row uniform">
 					<!-- Content -->
 						<div class="4u 6u(1) 12u(2)">
 						<section id="gazebo">
-							<div style="text-align: center;"><a class="image"><img src="images/gzlogo.png" alt="" /></a></div>
+							<div style="text-align: center;"><a class="image"><img src="images/gzlogo.png" alt=""  height="175" width="150"/></a></div>
+
 							<h2>Gazebo</h2>
-							<p>Aliquam massa urna, imperdiet sit amet mi non, bibendum euismod est. Curabitur mi justo, tincidunt vel eros ullamcorper, porta cursus justo. Cras vel neque eros. Vestibulum diam quam, mollis at magna consectetur non, malesuada quis augue.</p>
+							<p>Gazebo is a robust physics engine, offers high-quality graphics, and a convenient programmatic and graphical interfaces. It is a well-designed simulator, that makes it possible to rapidly test algorithms, design robots, perform regression testing, and train AI system using realistic scenarios. </br>(http://gazebosim.org/)</br></br></br></p>
 							<div style="text-align: center;"><ul class="actions">
 								<li><a href="http://localhost:7000/vnc_auto.html" target="_blank" class="button special fit">Start</a></li>
 							</ul></div>
-							<h3>Sed Magna Ornare</h3>
-							<p>In vestibulum massa quis arcu lobortis tempus. Nam pretium arcu in odio vulputate luctus. Suspendisse euismod lorem eget lacinia fringilla. Sed sed felis justo. Nunc sodales elit in laoreet aliquam. Nam gravida, nisl sit amet iaculis porttitor, risus nisi rutrum metus.</p>
+							<h3>Important Notes for working with Gazebo</h3>
+							<p>Gazebo has to be started manually inside the container.</br> To do so, click either on the terminal or on the Cloud9-Terminal and type one of the following to lines:
+								<blockquote style="border: 0px solid #666; padding: 10px; background-color: #eee;"> gazebo --verbose</br>rosrun gazebo_ros gazebo</blockquote></p>
+
+							<h3>Get to know more about Gazebo</h3>
+							<p>There are a lot of sources to learn how to work with Gazebo - </br>
+							From Getting Started up to Reinforcement Learning with OpenAI: </p>
 							<ul>
-								<li>Faucibus orci lobortis ac adipiscing integer.</li>
-								<li>Col accumsan arcu mi aliquet placerat.</li>
-								<li>Lobortis vestibulum ut magna tempor massa nascetur.</li>
-								<li>Blandit massa non blandit tempor interdum.</li>
-								<li>Lacinia mattis arcu nascetur lobortis.</li>
+								<li><a href="http://gazebosim.org/tutorials?cat=get_started">Get Started with Gazebo</a></li>
+								<li><a href="http://gazebosim.org/tutorials?cat=build_worldd">Build a World Model</a></li>
+								<li><a href="http://gazebosim.org/tutorials?cat=sensors">Work with Sensors</a></li>
+								<li><a href="http://gazebosim.org/tutorials?cat=connect_ros">Connect Gazebo with ROS</a></li>
+								<li><a href="http://wiki.ros.org/openai_ros/TurtleBot2%20with%20openai_ros">Learn the Basics to use openai_ros</a></li>
 							</ul>
 						</section>
 						</div>
 						<div class="4u$ 6u(1) 12u(2)">
 						<section id="vrep">
-							<a  class="image fit"><img src="images/vrep.png" alt="" /></a>
+							<a  class="image fit"><img src="images/vrep.png" alt="" height="150" width="120"/></a>
 							<h2></h2>
 							<h2>V-REP</h2>
-							<p>Aliquam massa urna, imperdiet sit amet mi non, bibendum euismod est. Curabitur mi justo, tincidunt vel eros ullamcorper, porta cursus justo. Cras vel neque eros. Vestibulum diam quam, mollis at magna consectetur non, malesuada quis augue.</p>
-							<div style="text-align: center;"><ul class="actions">
+							<p>V-REP is used for fast algorithm development, factory automation simulations, fast prototyping and verification, robotics related education, remote monitoring, safety double-checking, etc.</br>Each object/model can be individually controlled via an embedded script, a plugin, a ROS or BlueZero node, a remote API client, or a custom solution. This makes V-REP very versatile and ideal for multi-robot applications. </br>(http://www.coppeliarobotics.com/)</p>
+								<div style="text-align: center;"><ul class="actions">
 								<li><a href="http://localhost:9000/vnc_auto.html" target="_blank" class="button special fit">Start</a></li>
 							</ul></div>
-							<h3>Sed Magna Ornare</h3>
-							<p>In vestibulum massa quis arcu lobortis tempus. Nam pretium arcu in odio vulputate luctus. Suspendisse euismod lorem eget lacinia fringilla. Sed sed felis justo. Nunc sodales elit in laoreet aliquam. Nam gravida, nisl sit amet iaculis porttitor, risus nisi rutrum metus.</p>
+							<h3>Important Notes for working with V-REP</h3>
+							<p>V-REP has to be started manually inside the container.</br> To do so, click on the terminal and type in the following to lines:</br></br>
+								<blockquote style="border: 0px solid #666; padding: 10px; background-color: #eee;"> cd bin/vrep</br>./vrep</blockquote></p>
+
+							<h3>Get to know more about V-REP</h3>
+							<p>Use Resources from Coppelia-Robotics and other external sources to learn how to develop applications with V-REP</br></p>
 							<ul>
-								<li>Faucibus orci lobortis ac adipiscing integer.</li>
-								<li>Col accumsan arcu mi aliquet placerat.</li>
-								<li>Lobortis vestibulum ut magna tempor massa nascetur.</li>
-								<li>Blandit massa non blandit tempor interdum.</li>
-								<li>Lacinia mattis arcu nascetur lobortis.</li>
+								<li><a href="http://www.coppeliarobotics.com/helpFiles/index.html">User Manual zu V-REP</a></li>
+								<li><a href="http://wiki.ros.org/vrep_ros_bridge">Learn how to connect ROS to V-REP</a></li>
 							</ul>
 						</section>
 						</div>

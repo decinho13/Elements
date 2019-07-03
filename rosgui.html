@@ -44,8 +44,7 @@
 							<li><a href="jupyter.html">Jupyter-Notebook</a></li>
 							<li><a href="blender.html">Blender 3D</a></li>
 							<li><a href="rosgui.html">ROS GUI-Tools</a></li>
-							<li><a href="gitlab.html">Gitlab</a></li>
-							<li><a href="azure.html">Azure SDK</a></li>
+							<li><a href="http://localhost:10080" target="_blank">Gitlab</a></li>
 						</ul>
 					</li>
 
@@ -57,27 +56,42 @@
 			<section id="main" class="wrapper style1">
 				<header class="major">
 					<h2>ROS GUI-Tools</h2>
-					<p>Faucibus neque adipiscing mi lorem semper blandit</p>
+					<p>Use powerful tools to bring your applications to a higher level</p>
 				</header>
 				<div class="container">
 
 					<!-- Content -->
 						<section id="content">
-							<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-							<h3>Description</h3>
-							<p>Aliquam massa urna, imperdiet sit amet mi non, bibendum euismod est. Curabitur mi justo, tincidunt vel eros ullamcorper, porta cursus justo. Cras vel neque eros. Vestibulum diam quam, mollis at magna consectetur non, malesuada quis augue. Morbi tincidunt pretium interdum est. Curabitur mi justo, tincidunt vel eros ullamcorper, porta cursus justo. Cras vel neque eros. Vestibulum diam.</p>
+							<a href="#" class="image fit"><img src="images/rviz.png" alt="" /></a>
 							<div style="text-align: center;"><ul class="actions">
 								<li><a href="http://localhost:7000" target="_blank" class="button special fit">Start</a></li>
 							</ul></div>
-							<h3>Sed Magna Ornare</h3>
-							<p>In vestibulum massa quis arcu lobortis tempus. Nam pretium arcu in odio vulputate luctus. Suspendisse euismod lorem eget lacinia fringilla. Sed sed felis justo. Nunc sodales elit in laoreet aliquam. Nam gravida, nisl sit amet iaculis porttitor, risus nisi rutrum metus.</p>
-							<ul>
-								<li>Faucibus orci lobortis ac adipiscing integer.</li>
-								<li>Col accumsan arcu mi aliquet placerat.</li>
-								<li>Lobortis vestibulum ut magna tempor massa nascetur.</li>
-								<li>Blandit massa non blandit tempor interdum.</li>
-								<li>Lacinia mattis arcu nascetur lobortis.</li>
-							</ul>
+							<h3>Rviz</h3>
+							<p>rviz (ROS visualization) is a 3D visualizer for displaying sensor data and state information from ROS.
+								Using rviz, you can visualize Baxter's current configuration on a virtual model of the robot.
+								You can also display live representations of sensor values coming over ROS Topics including camera data, infrared distance measurements, sonar data, and more.
+								(http://sdk.rethinkrobotics.com/wiki/Rviz)</br
+								>For more Information have a look on this <a href="http://wiki.ros.org/rviz#Tutorials">tutorial webpage</a>.
+							</br>To use this tool type in following command in Cloud9-Terminal:
+							<blockquote style="border: 0px solid #666; padding: 10px; background-color: #eee;">$ rviz</blockquote>
+						</p>
+						<h3>Rqt</h3>
+						<p>rqt is a software framework of ROS that implements the various GUI tools in the form of plugins.
+							<a href="http://wiki.ros.org/rqt/Plugins">Over 20 plugins</a> have already been created and more are slated for development.  </br
+							>For more Information have a look on this <a href="http://wiki.ros.org/rqt#Tutorials">tutorial webpage</a>. </br>(wiki.ros.org/rqt)
+						</br>To use this tool type in following command in Cloud9-Terminal:
+						<blockquote style="border: 0px solid #666; padding: 10px; background-color: #eee;">$ rqt</blockquote>
+					</p>
+					<h3>MoveIt!</h3>
+					<p>MoveIt is state of the art software for mobile manipulation,
+						incorporating the latest advances in motion planning, manipulation, 3D perception, kinematics, control and navigation.
+						It provides an easy-to-use platform for developing advanced robotics applications,
+						evaluating new robot designs and building integrated robotics products for industrial, commercial, R&D and other domains.
+						(https://moveit.ros.org/)</br
+						>For more Information have a look on this <a href="https://ros-planning.github.io/moveit_tutorials/">tutorial webpage</a>.
+					</br>To use this tool type in following command in Cloud9-Terminal:
+					<blockquote style="border: 0px solid #666; padding: 10px; background-color: #eee;">$ roslaunch moveit_setup_assistant setup_assistant.launch</blockquote>
+				</p>
 						</section>
 
 				</div>
